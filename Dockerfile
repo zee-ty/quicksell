@@ -1,15 +1,9 @@
-FROM php:8.2-apache
+FROM php:8.2-cli
 
-# Enable rewrite (safe for most PHP apps)
-RUN a2enmod rewrite
+WORKDIR /app
 
-# Disable conflicting MPM modules (THIS fixes your error)
-RUN a2dismod mpm_event || true
-RUN a2enmod mpm_prefork
+COPY . /app
 
-# Copy project
-COPY . /var/www/html/
+EXPOSE 8080
 
-WORKDIR /var/www/html
-
-EXPOSE 80
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "."]
