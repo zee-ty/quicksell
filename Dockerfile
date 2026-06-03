@@ -1,11 +1,6 @@
-FROM php:8.2-cli
+# Copy and setup entrypoint script
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 
-WORKDIR /app
-
-COPY . /app
-
-ENV PORT=8080
-
-EXPOSE 8080
-
-CMD ["sh", "-c", "php -S 0.0.0.0:$PORT -t /app/code"]
+# Start Apache via custom entrypoint
+CMD ["/usr/local/bin/docker-entrypoint.sh"]
