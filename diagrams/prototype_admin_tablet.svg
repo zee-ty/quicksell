@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" font-family="Arial, sans-serif" font-size="11">
+  <rect width="600" height="800" fill="#f8f9fa"/>
+  <text x="300" y="20" text-anchor="middle" font-size="16" font-weight="bold">Admin Website - Tablet (768px)</text>
+
+  <rect x="40" y="40" width="520" height="740" fill="#fff" stroke="#444" stroke-width="3" rx="20"/>
+  <rect x="40" y="40" width="520" height="20" fill="#222" rx="20"/>
+
+  <!-- Nav -->
+  <rect x="40" y="60" width="520" height="45" fill="#212529"/>
+  <text x="60" y="88" fill="#fff" font-weight="bold" font-size="15">TradeMate Admin</text>
+  <text x="510" y="88" fill="#fff" font-size="18">≡</text>
+
+  <!-- Stat cards -->
+  <rect x="60" y="120" width="155" height="90" fill="#fff" stroke="#dee2e6"/>
+  <text x="75" y="145" font-size="11" fill="#666">Total Users</text>
+  <text x="75" y="180" font-size="26" font-weight="bold" fill="#1976d2">158</text>
+
+  <rect x="225" y="120" width="155" height="90" fill="#fff" stroke="#dee2e6"/>
+  <text x="240" y="145" font-size="11" fill="#666">Listings</text>
+  <text x="240" y="180" font-size="26" font-weight="bold" fill="#2e7d32">243</text>
+
+  <rect x="390" y="120" width="155" height="90" fill="#fff" stroke="#dee2e6"/>
+  <text x="405" y="145" font-size="11" fill="#666">Orders</text>
+  <text x="405" y="180" font-size="26" font-weight="bold" fill="#f57c00">87</text>
+
+  <!-- Manage Users -->
+  <rect x="60" y="230" width="485" height="450" fill="#fff" stroke="#dee2e6"/>
+  <text x="75" y="255" font-weight="bold">Manage Users</text>
+
+  <rect x="75" y="270" width="455" height="25" fill="#212529"/>
+  <text x="85" y="288" fill="#fff" font-size="10">ID</text>
+  <text x="115" y="288" fill="#fff" font-size="10">Name</text>
+  <text x="270" y="288" fill="#fff" font-size="10">Role</text>
+  <text x="430" y="288" fill="#fff" font-size="10">Action</text>
+
+  <g font-size="10">
+    <rect x="75" y="295" width="455" height="25" fill="#f8f9fa"/>
+    <text x="85" y="310">1</text>
+    <text x="115" y="310">Site Admin</text>
+    <text x="270" y="310">super_admin</text>
+    <rect x="425" y="298" width="50" height="18" fill="#dc3545"/>
+    <text x="430" y="310" fill="#fff">Delete</text>
+
+    <rect x="75" y="320" width="455" height="25" fill="#fff"/>
+    <text x="85" y="335">2</text>
+    <text x="115" y="335">Thabo Mokoena</text>
+    <text x="270" y="335">seller</text>
+    <rect x="425" y="323" width="50" height="18" fill="#dc3545"/>
+    <text x="430" y="335" fill="#fff">Delete</text>
+
+    <rect x="75" y="345" width="455" height="25" fill="#f8f9fa"/>
+    <text x="85" y="360">3</text>
+    <text x="115" y="360">Aisha Patel</text>
+    <text x="270" y="360">buyer</text>
+    <rect x="425" y="348" width="50" height="18" fill="#dc3545"/>
+    <text x="430" y="360" fill="#fff">Delete</text>
+  </g>
+</svg>

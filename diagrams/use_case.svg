@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Arial, sans-serif" font-size="12">
+  <style>
+    .uc { fill: #fff9c4; stroke: #f57f17; stroke-width: 1.5; }
+    .actor-line { stroke: #222; stroke-width: 1.5; fill: none; }
+    .boundary { fill: none; stroke: #555; stroke-width: 2; stroke-dasharray: none; }
+    text { fill: #222; }
+  </style>
+
+  <text x="500" y="25" text-anchor="middle" font-size="20" font-weight="bold">Use Case Diagram - TradeMate</text>
+
+  <!-- System boundary -->
+  <rect class="boundary" x="220" y="60" width="560" height="600" rx="10"/>
+  <text x="500" y="85" text-anchor="middle" font-weight="bold" font-size="14">TradeMate System</text>
+
+  <!-- Actor: Buyer -->
+  <g transform="translate(90,180)">
+    <circle r="12" cx="0" cy="0" fill="none" stroke="#222" stroke-width="1.5"/>
+    <line x1="0" y1="12" x2="0" y2="50" class="actor-line"/>
+    <line x1="-20" y1="25" x2="20" y2="25" class="actor-line"/>
+    <line x1="0" y1="50" x2="-15" y2="80" class="actor-line"/>
+    <line x1="0" y1="50" x2="15" y2="80" class="actor-line"/>
+    <text x="0" y="105" text-anchor="middle" font-weight="bold">Buyer</text>
+  </g>
+
+  <!-- Actor: Seller -->
+  <g transform="translate(90,400)">
+    <circle r="12" cx="0" cy="0" fill="none" stroke="#222" stroke-width="1.5"/>
+    <line x1="0" y1="12" x2="0" y2="50" class="actor-line"/>
+    <line x1="-20" y1="25" x2="20" y2="25" class="actor-line"/>
+    <line x1="0" y1="50" x2="-15" y2="80" class="actor-line"/>
+    <line x1="0" y1="50" x2="15" y2="80" class="actor-line"/>
+    <text x="0" y="105" text-anchor="middle" font-weight="bold">Seller</text>
+  </g>
+
+  <!-- Actor: Admin -->
+  <g transform="translate(910,250)">
+    <circle r="12" cx="0" cy="0" fill="none" stroke="#222" stroke-width="1.5"/>
+    <line x1="0" y1="12" x2="0" y2="50" class="actor-line"/>
+    <line x1="-20" y1="25" x2="20" y2="25" class="actor-line"/>
+    <line x1="0" y1="50" x2="-15" y2="80" class="actor-line"/>
+    <line x1="0" y1="50" x2="15" y2="80" class="actor-line"/>
+    <text x="0" y="105" text-anchor="middle" font-weight="bold">Admin</text>
+  </g>
+
+  <!-- Actor: Payment Gateway -->
+  <g transform="translate(910,500)">
+    <circle r="12" cx="0" cy="0" fill="none" stroke="#222" stroke-width="1.5"/>
+    <line x1="0" y1="12" x2="0" y2="50" class="actor-line"/>
+    <line x1="-20" y1="25" x2="20" y2="25" class="actor-line"/>
+    <line x1="0" y1="50" x2="-15" y2="80" class="actor-line"/>
+    <line x1="0" y1="50" x2="15" y2="80" class="actor-line"/>
+    <text x="0" y="105" text-anchor="middle" font-weight="bold">Payment</text>
+    <text x="0" y="120" text-anchor="middle" font-weight="bold">Gateway</text>
+  </g>
+
+  <!-- Use cases -->
+  <ellipse class="uc" cx="350" cy="130" rx="80" ry="25"/>
+  <text x="350" y="135" text-anchor="middle">Register Account</text>
+
+  <ellipse class="uc" cx="350" cy="190" rx="80" ry="25"/>
+  <text x="350" y="195" text-anchor="middle">Login</text>
+
+  <ellipse class="uc" cx="350" cy="250" rx="80" ry="25"/>
+  <text x="350" y="255" text-anchor="middle">Browse Listings</text>
+
+  <ellipse class="uc" cx="350" cy="310" rx="80" ry="25"/>
+  <text x="350" y="315" text-anchor="middle">Search Items</text>
+
+  <ellipse class="uc" cx="650" cy="130" rx="80" ry="25"/>
+  <text x="650" y="135" text-anchor="middle">Post Listing</text>
+
+  <ellipse class="uc" cx="650" cy="190" rx="80" ry="25"/>
+  <text x="650" y="195" text-anchor="middle">Edit Own Listing</text>
+
+  <ellipse class="uc" cx="650" cy="250" rx="80" ry="25"/>
+  <text x="650" y="255" text-anchor="middle">Send Message</text>
+
+  <ellipse class="uc" cx="350" cy="380" rx="80" ry="25"/>
+  <text x="350" y="385" text-anchor="middle">Place Order</text>
+
+  <ellipse class="uc" cx="350" cy="440" rx="80" ry="25"/>
+  <text x="350" y="445" text-anchor="middle">Make Payment</text>
+
+  <ellipse class="uc" cx="350" cy="500" rx="80" ry="25"/>
+  <text x="350" y="505" text-anchor="middle">Leave Review</text>
+
+  <ellipse class="uc" cx="650" cy="310" rx="80" ry="25"/>
+  <text x="650" y="315" text-anchor="middle">Manage Users</text>
+
+  <ellipse class="uc" cx="650" cy="370" rx="80" ry="25"/>
+  <text x="650" y="375" text-anchor="middle">Assign Roles</text>
+
+  <ellipse class="uc" cx="650" cy="430" rx="80" ry="25"/>
+  <text x="650" y="435" text-anchor="middle">Remove Listings</text>
+
+  <ellipse class="uc" cx="650" cy="490" rx="80" ry="25"/>
+  <text x="650" y="495" text-anchor="middle">View Reports</text>
+
+  <ellipse class="uc" cx="500" cy="580" rx="80" ry="25"/>
+  <text x="500" y="585" text-anchor="middle">Process Payment</text>
+
+  <!-- Lines: Buyer -->
+  <line x1="120" y1="180" x2="270" y2="130" stroke="#444"/>
+  <line x1="120" y1="180" x2="270" y2="190" stroke="#444"/>
+  <line x1="120" y1="200" x2="270" y2="250" stroke="#444"/>
+  <line x1="120" y1="210" x2="270" y2="310" stroke="#444"/>
+  <line x1="120" y1="220" x2="270" y2="380" stroke="#444"/>
+  <line x1="120" y1="230" x2="270" y2="440" stroke="#444"/>
+  <line x1="120" y1="240" x2="270" y2="500" stroke="#444"/>
+
+  <!-- Lines: Seller -->
+  <line x1="120" y1="400" x2="570" y2="130" stroke="#444"/>
+  <line x1="120" y1="410" x2="570" y2="190" stroke="#444"/>
+  <line x1="120" y1="420" x2="570" y2="250" stroke="#444"/>
+  <line x1="120" y1="430" x2="270" y2="190" stroke="#444"/>
+
+  <!-- Lines: Admin -->
+  <line x1="880" y1="270" x2="730" y2="310" stroke="#444"/>
+  <line x1="880" y1="280" x2="730" y2="370" stroke="#444"/>
+  <line x1="880" y1="290" x2="730" y2="430" stroke="#444"/>
+  <line x1="880" y1="300" x2="730" y2="490" stroke="#444"/>
+
+  <!-- Lines: Payment Gateway -->
+  <line x1="880" y1="540" x2="580" y2="580" stroke="#444"/>
+  <line x1="430" y1="440" x2="420" y2="555" stroke="#444" stroke-dasharray="3,3"/>
+  <text x="350" y="555" font-size="10" font-style="italic">&lt;&lt;include&gt;&gt;</text>
+</svg>

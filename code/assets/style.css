@@ -1,0 +1,40 @@
+/* QuickSell custom styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f8f9fa;
+} 
+
+.hero {
+    background: linear-gradient(135deg, #e3f2fd 0%, #f8f9fa 100%);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.listing-card .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.listing-card .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+    background: #e9ecef;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* mobile-first tweaks */
+@media (max-width: 576px) {
+    .hero h1 { font-size: 1.5rem; }
+    #searchBox { width: 100% !important; }
+}

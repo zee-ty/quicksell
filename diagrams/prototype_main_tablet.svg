@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" font-family="Arial, sans-serif" font-size="11">
+  <rect width="600" height="800" fill="#f8f9fa"/>
+  <text x="300" y="20" text-anchor="middle" font-size="16" font-weight="bold">Main Website - Tablet (768px)</text>
+
+  <!-- Device frame -->
+  <rect x="40" y="40" width="520" height="740" fill="#fff" stroke="#444" stroke-width="3" rx="20"/>
+
+  <!-- Status bar -->
+  <rect x="40" y="40" width="520" height="20" fill="#222" rx="20"/>
+
+  <!-- Nav -->
+  <rect x="40" y="60" width="520" height="45" fill="#1976d2"/>
+  <text x="60" y="88" fill="#fff" font-size="16" font-weight="bold">TradeMate</text>
+  <text x="500" y="88" fill="#fff" font-size="20">≡</text>
+
+  <!-- Hero -->
+  <rect x="40" y="105" width="520" height="90" fill="#e3f2fd"/>
+  <text x="300" y="135" text-anchor="middle" font-size="16" font-weight="bold">Buy &amp; Sell with people near you</text>
+  <text x="300" y="155" text-anchor="middle" font-size="11" fill="#555">TradeMate connects buyers &amp; sellers</text>
+  <rect x="100" y="165" width="400" height="25" fill="#fff" stroke="#aaa"/>
+  <text x="115" y="183" fill="#999" font-size="11">Search listings...</text>
+
+  <!-- Listings 2-col -->
+  <g>
+    <rect x="60" y="220" width="230" height="180" fill="#fff" stroke="#ccc"/>
+    <rect x="60" y="220" width="230" height="100" fill="#dee2e6"/>
+    <text x="175" y="275" text-anchor="middle" fill="#aaa">Image</text>
+    <text x="70" y="340" font-weight="bold">iPhone 12</text>
+    <text x="70" y="360" font-size="10" fill="#777">Electronics</text>
+    <text x="70" y="385" fill="#1976d2" font-weight="bold">R 6,500</text>
+  </g>
+  <g>
+    <rect x="310" y="220" width="230" height="180" fill="#fff" stroke="#ccc"/>
+    <rect x="310" y="220" width="230" height="100" fill="#dee2e6"/>
+    <text x="425" y="275" text-anchor="middle" fill="#aaa">Image</text>
+    <text x="320" y="340" font-weight="bold">Nike Air Max</text>
+    <text x="320" y="360" font-size="10" fill="#777">Fashion</text>
+    <text x="320" y="385" fill="#1976d2" font-weight="bold">R 850</text>
+  </g>
+  <g>
+    <rect x="60" y="420" width="230" height="180" fill="#fff" stroke="#ccc"/>
+    <rect x="60" y="420" width="230" height="100" fill="#dee2e6"/>
+    <text x="175" y="475" text-anchor="middle" fill="#aaa">Image</text>
+    <text x="70" y="540" font-weight="bold">Coffee Table</text>
+    <text x="70" y="560" font-size="10" fill="#777">Home</text>
+    <text x="70" y="585" fill="#1976d2" font-weight="bold">R 1,200</text>
+  </g>
+  <g>
+    <rect x="310" y="420" width="230" height="180" fill="#fff" stroke="#ccc"/>
+    <rect x="310" y="420" width="230" height="100" fill="#dee2e6"/>
+    <text x="425" y="475" text-anchor="middle" fill="#aaa">Image</text>
+    <text x="320" y="540" font-weight="bold">Mountain Bike</text>
+    <text x="320" y="560" font-size="10" fill="#777">Sports</text>
+    <text x="320" y="585" fill="#1976d2" font-weight="bold">R 3,800</text>
+  </g>
+  <rect x="40" y="730" width="520" height="40" fill="#222"/>
+  <text x="300" y="755" text-anchor="middle" fill="#fff" font-size="10">© 2026 TradeMate</text>
+</svg>
