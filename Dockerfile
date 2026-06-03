@@ -10,13 +10,19 @@ RUN apt-get update \
 # Enable Apache rewrite
 RUN a2enmod rewrite
 
-# Copy application code into the web root
-COPY . /var/www/html/
+# Copy application code (from `code/`) into the web root
+# The project places the PHP app under the `code/` directory.
+COPY code/ /var/www/html/
 WORKDIR /var/www/html
 
 # Ensure entrypoint script is installed and executable
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+# Fix ownership and permissions so Apache can serve files
+RUN chown -R www-data:www-data /var/www/html \
+	&& find /var/www/html -type d -exec chmod 755 {} \; \
+	&& find /var/www/html -type f -exec chmod 644 {} \;
 
 # Expose HTTP
 EXPOSE 80
