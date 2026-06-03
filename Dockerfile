@@ -10,6 +10,10 @@ RUN apt-get update \
 # Enable Apache rewrite
 RUN a2enmod rewrite
 
+# Ensure DirectoryIndex and AllowOverride for the app
+COPY docker-apache.conf /etc/apache2/conf-available/quicksell.conf
+RUN a2enconf quicksell
+
 # Copy application code (from `code/`) into the web root
 # The project places the PHP app under the `code/` directory.
 COPY code/ /var/www/html/
@@ -23,6 +27,11 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 RUN chown -R www-data:www-data /var/www/html \
 	&& find /var/www/html -type d -exec chmod 755 {} \; \
 	&& find /var/www/html -type f -exec chmod 644 {} \;
+
+# Create a simple fallback index.html at build time if index.php is missing
+RUN if [ ! -f /var/www/html/index.php ]; then \
+			echo '<!doctype html><title>QuickSell</title><h1>Index missing</h1><p>No index.php found</p>' > /var/www/html/index.html; \
+		fi
 
 # Expose HTTP
 EXPOSE 80
