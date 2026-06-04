@@ -8,7 +8,7 @@
 
   <!-- Nav -->
   <rect x="80" y="55" width="240" height="38" fill="#1976d2"/>
-  <text x="95" y="80" fill="#fff" font-weight="bold">TradeMate</text>
+  <text x="95" y="80" fill="#fff" font-weight="bold">QuickSell</text>
   <text x="295" y="80" fill="#fff" font-size="18">≡</text>
 
   <!-- Hero -->

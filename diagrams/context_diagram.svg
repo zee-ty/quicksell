@@ -13,11 +13,11 @@
     </marker>
   </defs>
 
-  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold">Context Diagram - TradeMate</text>
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold">Context Diagram - QuickSell</text>
 
   <!-- Central system -->
   <ellipse class="system" cx="400" cy="300" rx="140" ry="80"/>
-  <text x="400" y="295" text-anchor="middle" font-weight="bold" font-size="16">TradeMate</text>
+  <text x="400" y="295" text-anchor="middle" font-weight="bold" font-size="16">QuickSell</text>
   <text x="400" y="315" text-anchor="middle" font-size="14">C2C E-commerce</text>
   <text x="400" y="335" text-anchor="middle" font-size="14">System</text>
 

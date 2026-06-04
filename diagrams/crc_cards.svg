@@ -7,7 +7,7 @@
     text { fill: #222; }
   </style>
 
-  <text x="450" y="25" text-anchor="middle" font-size="20" font-weight="bold">CRC Cards - TradeMate</text>
+  <text x="450" y="25" text-anchor="middle" font-size="20" font-weight="bold">CRC Cards - QuickSell</text>
 
   <!-- User Card -->
   <rect class="card" x="20" y="50" width="280" height="170"/>

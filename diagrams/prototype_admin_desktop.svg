@@ -8,11 +8,11 @@
   <circle cx="35" cy="62" r="5" fill="#ff5f56"/>
   <circle cx="50" cy="62" r="5" fill="#ffbd2e"/>
   <circle cx="65" cy="62" r="5" fill="#27c93f"/>
-  <text x="100" y="66" font-size="11">https://trademate.example.com/admin</text>
+  <text x="100" y="66" font-size="11">https://quicksell.example.com/admin</text>
 
   <!-- Nav bar -->
   <rect x="20" y="75" width="1060" height="50" fill="#212529"/>
-  <text x="40" y="105" fill="#fff" font-size="18" font-weight="bold">TradeMate Admin</text>
+  <text x="40" y="105" fill="#fff" font-size="18" font-weight="bold">QuickSell Admin</text>
   <text x="850" y="105" fill="#fff" font-size="12">Role: super_admin | Logout</text>
 
   <!-- Sidebar -->
@@ -55,7 +55,7 @@
     <rect x="260" y="340" width="780" height="30" fill="#f8f9fa"/>
     <text x="280" y="358">1</text>
     <text x="350" y="358">Site Admin</text>
-    <text x="550" y="358">admin@trademate.co.za</text>
+    <text x="550" y="358">admin@quicksell.co.za</text>
     <rect x="790" y="346" width="100" height="18" fill="#fff" stroke="#aaa"/>
     <text x="795" y="358">super_admin ▾</text>
     <rect x="950" y="346" width="50" height="18" fill="#dc3545"/>

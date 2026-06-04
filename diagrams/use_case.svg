@@ -6,12 +6,12 @@
     text { fill: #222; }
   </style>
 
-  <text x="500" y="25" text-anchor="middle" font-size="20" font-weight="bold">Use Case Diagram - TradeMate</text>
+  <text x="500" y="25" text-anchor="middle" font-size="20" font-weight="bold">Use Case Diagram - QuickSell</text>
 
   <!-- System boundary -->
   <rect class="boundary" x="220" y="60" width="560" height="600" rx="10"/>
-  <text x="500" y="85" text-anchor="middle" font-weight="bold" font-size="14">TradeMate System</text>
-
+  <text x="500" y="85" text-anchor="middle" font-weight="bold" font-size="14">QuickSell System</text>
+  
   <!-- Actor: Buyer -->
   <g transform="translate(90,180)">
     <circle r="12" cx="0" cy="0" fill="none" stroke="#222" stroke-width="1.5"/>
